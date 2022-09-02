@@ -18,7 +18,7 @@ body {
 
   background: url("../../img/whiteBG3.jpg") no-repeat center center/cover;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: absolute;
   top: 0%;
   left: 0%;
@@ -314,4 +314,14 @@ img.right-png {
   color: black;
   font-weight: 200;
 
+}
+.p-heading{
+ display: flex;
+ justify-content: center;
+ font-size: 50px;
+ text-decoration:underline;
+}
+
+.section-p{
+  margin-top: 50px;
 }
